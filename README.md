@@ -82,10 +82,34 @@ After performing successful synthesis and generating a netlist, floorplanning is
 
 ![RRA_Floorplan_closer](https://github.com/user-attachments/assets/bef2b24c-49da-4880-981d-fe0c1c672784)
 
+## Current Challenges
 
+I'm currently working on the placement stage of the flow and facing a challenge with its execution. Mentione below. 
+If you have experience in this area, I’d appreciate any suggestions or insights.
+
+N.B. I tried tweaking the config.tcl file with the below changes but to no help. 
+```bash
+set ::env(FP_CORE_UTIL) 45
+set ::env(PL_TARGET_DENSITY) 0.85
+set ::env(FP_SIZING) "relative"
+```
+
+Feel free to open an issue or submit a pull request if you have ideas on how to address this.
+
+### Placement and Routing
+While running placement on the design an Error is thrown which is shown below.
+
+![RRA_ERROR_in_Placement](https://github.com/user-attachments/assets/3ccd6aa6-eb1e-4bd3-b257-b5487a56a84b)
 
 
 
 
 ## References
 [1] M. H. Khan, P. Podder, M.M. Rahman, T. Rahman, T. Zaman, “DESIGN OF A ROUND ROBIN ARBITER ON RESOURCE SHARING”, Proceedings of 8th IRF International Conference, 04th May-2014, Pune, India, ISBN: 978-93-84209-12-4
+
+## Credits
+
+1 - Verilog HDL Project | Round Robin Arbiter(with code) | EDA Playground | Verilog([https://www.youtube.com/...] - (https://youtu.be/X6oJn7r9-8s?si=NqqBWbNTpkPs7mwc))
+
+Channel: Arjun Narula - ([https://www.youtube.com/channel/...](https://www.youtube.com/@ArjunNarula1122))
+The concept of round-robin arbitration and the initial code for this project were adapted from his instructional video.
