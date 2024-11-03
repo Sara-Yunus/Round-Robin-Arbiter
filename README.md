@@ -12,5 +12,7 @@ Schematics
 
 Floorplans
 ![RRA_Floorplan](https://github.com/user-attachments/assets/9a046c01-d38d-4187-b259-8cb15c2086d0)
+
 ![RRA_Floorplan_II](https://github.com/user-attachments/assets/05fa7298-e384-495a-8ae3-a0d45b63167c)
+
 ![RRA_Floorplan_closer](https://github.com/user-attachments/assets/bef2b24c-49da-4880-981d-fe0c1c672784)
