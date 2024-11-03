@@ -81,3 +81,11 @@ After performing successful synthesis and generating a netlist, floorplanning is
 ![RRA_Floorplan_II](https://github.com/user-attachments/assets/05fa7298-e384-495a-8ae3-a0d45b63167c)
 
 ![RRA_Floorplan_closer](https://github.com/user-attachments/assets/bef2b24c-49da-4880-981d-fe0c1c672784)
+
+
+
+
+
+
+## References
+[1] M. H. Khan, P. Podder, M.M. Rahman, T. Rahman, T. Zaman, “DESIGN OF A ROUND ROBIN ARBITER ON RESOURCE SHARING”, Proceedings of 8th IRF International Conference, 04th May-2014, Pune, India, ISBN: 978-93-84209-12-4
