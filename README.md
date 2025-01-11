@@ -76,30 +76,32 @@ Using Openlane Flow to perform synthesis and further steps.
 ### Floorplans
 After performing successful synthesis and generating a netlist, floorplanning is performed and the following layout is obtained in the Magic Layout tool. 
 
-![RRA_Floorplan](https://github.com/user-attachments/assets/9a046c01-d38d-4187-b259-8cb15c2086d0)
+![fp_placed_io](https://github.com/user-attachments/assets/b22da1b9-8bc1-4289-bb86-4a1ba948a556)
 
-![RRA_Floorplan_II](https://github.com/user-attachments/assets/05fa7298-e384-495a-8ae3-a0d45b63167c)
+![fp_pdn](https://github.com/user-attachments/assets/db1d64b8-386d-4c0a-876b-2e46e63bab98)
 
-![RRA_Floorplan_closer](https://github.com/user-attachments/assets/bef2b24c-49da-4880-981d-fe0c1c672784)
+![fp_with_pdn](https://github.com/user-attachments/assets/49199bb4-d20f-40ef-b0a8-72cc357bc958)
 
-## Current Challenges
+![fp_with_pdn_CLOSER](https://github.com/user-attachments/assets/84f915e6-ffab-4c9f-bdfc-be4106d85bdd)
 
-I'm currently working on the placement stage of the flow and facing a challenge with its execution. Mentione below. 
-If you have experience in this area, I’d appreciate any suggestions or insights.
 
-N.B. I tried tweaking the config.tcl file with the below changes but to no help. 
-```bash
-set ::env(FP_CORE_UTIL) 45
-set ::env(PL_TARGET_DENSITY) 0.85
-set ::env(FP_SIZING) "relative"
-```
+### Placement 
 
-Feel free to open an issue or submit a pull request if you have ideas on how to address this.
+![pl_global](https://github.com/user-attachments/assets/3df09ea2-426d-44ba-9152-bab168384019)
 
-### Placement and Routing
-While running placement on the design an Error is thrown which is shown below.
+![pl_detailed](https://github.com/user-attachments/assets/83cb00ef-0782-4c67-b095-4542fd8489a1)
 
-![RRA_ERROR_in_Placement](https://github.com/user-attachments/assets/3ccd6aa6-eb1e-4bd3-b257-b5487a56a84b)
+
+### Routing
+
+![routing_detailed_MAGIC](https://github.com/user-attachments/assets/bc4e83e4-919b-47dd-acc8-37f923be6afd)
+
+
+## GDS
+
+![Round_Robin_Arbiter gds](https://github.com/user-attachments/assets/2ab2b230-4ae3-46df-8b0e-3a093de5cc77)
+
+![GDS](https://github.com/user-attachments/assets/bd811ae9-3203-4108-8f83-99ed26a2842f)
 
 
 
